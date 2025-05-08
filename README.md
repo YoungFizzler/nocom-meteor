@@ -6,6 +6,7 @@ Divide the nocom blocks file into 1.69gb files, filter each blocks file into onl
 - Windows 11 (Maybe 10 will work?)
 - (IMPORTANT - REQUIRED) PowerShell 7.5 https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5
 - 16 GB RAM - You can edit the code to use less cores/less ram if you have lower specs.
+- Nocom blocks.sql file taken straight from the archive within the .torrent download https://github.com/nerdsinspace/nocom-explanation/blob/main/README.md
 
 # Split-Blocks.ps1
 This file splits large .sql files into smaller chunks. Change the exact size of the file by editing the code. Set to 1.69GB by default, which should split the nocom blocks file into about 218 parts.
