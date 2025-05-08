@@ -20,6 +20,6 @@ Run powershell as admin and run extract_shulkers_parallel.ps1 with
 ``& 'yourDriveLetter:\extract_shulkers_parallel.ps1'``
 
 # FilterShulkers.ps1
-Give you a lot of options on how to search for blocks and how to cluster them (Into small stashes, big bases, or just every instance of that item). If you're trying to filter for other blocks, I would suggest you change the range in extract_shulkers_parallel.ps1 and don't bother changing the naming of the file outputs.
+Gives you a lot of options on how to search for blocks and how to cluster them (Into small stashes, big bases, or just every instance of that item). If you're trying to filter for other blocks, I would suggest you change the range in extract_shulkers_parallel.ps1 and don't bother changing the naming of the file outputs.
 Run powershell as admin and run FilterShulkers.ps1 with
 ``& 'yourDriveLetter:\FilterShulkers.ps1'``
