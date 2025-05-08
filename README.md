@@ -10,8 +10,7 @@ Divide the nocom blocks file into 1.69gb files, filter each blocks file into onl
 
 # Split-Blocks.ps1
 This file splits large .sql files into smaller chunks. Change the exact size of the file by editing the code. Set to 1.69GB by default, which should split the nocom blocks file into about 218 parts.
-Lines 4,5 set the input/output directories
-Run powershell as admin and run Split-Blocks.ps1 with
+Lines 4,5 set the input/output directories. Run powershell as admin and run Split-Blocks.ps1 with
 ``& 'yourDriveLetter:\Split-Blocks.ps1'``
 
 # extract_shulkers_parallel.ps1
